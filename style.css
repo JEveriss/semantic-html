@@ -1,0 +1,77 @@
+:root {
+  --green-color: #7ec562;
+  --red-color: #fa6666;
+  --blue-color: #8ba1f7;
+  --first-font: 1.4rem;
+}
+body {
+  font-size: 1rem;
+}
+h1 {
+  border: solid 0.3rem var(--green-color);
+}
+header {
+  border: solid 0.3rem var(--red-color);
+}
+nav {
+  border: solid 0.3rem var(--green-color);
+}
+a {
+  border: solid 0.3rem var(--red-color);
+}
+details {
+  border: solid 0.3rem var(--green-color);
+  padding-left: 3rem;
+}
+summary {
+  border: solid 0.3rem var(--red-color);
+}
+time {
+  border: solid 0.3rem var(--green-color);
+}
+main {
+  border: solid 0.3rem var(--blue-color);
+}
+section {
+  border: solid 0.3rem var(--red-color);
+}
+section:not(:first-child) > article > aside {
+  font-size: 1rem;
+}
+p {
+  border: solid 0.3rem var(--green-color);
+}
+article {
+  border: solid 0.3rem var(--red-color);
+}
+aside {
+  font-size: var(--first-font);
+  border: solid 0.3rem var(--green-color);
+  margin: 0 2rem;
+}
+blockquote {
+  border: solid 0.3rem var(--blue-color);
+  margin: 1rem 4rem;
+}
+figure {
+  border: solid 0.3rem var(--red-color);
+  margin: 1rem 2rem;
+}
+figcaption {
+  border: solid 0.3rem var(--green-color);
+}
+/* dfn {
+  border: solid 0.3rem var(--red-color);
+} */
+abbr {
+  background-color: var(--green-color);
+}
+footer {
+  border: solid 0.3rem var(--red-color);
+  padding: 0 2rem;
+  display: flex;
+  /* justify-content: space-between; */
+}
+mark {
+  border: solid 0.3rem var(--green-color);
+}
